@@ -31,7 +31,7 @@ if not api_key:
 # - google_api_key: Authentication key for Google AI Studio / Gemini API
 # - temperature: Set to 0.0 for deterministic, factual, and consistent reasoning/tool selection
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash",
     google_api_key=api_key,
     temperature=0.0
 )
